@@ -16,7 +16,7 @@
 }
 html{scroll-behavior:smooth;}
 body{font-family:var(--sans);color:var(--text);background:#fff;font-weight:300;}
-
+ 
 /* ── NAV ── */
 nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--cream2);display:flex;align-items:center;justify-content:space-between;padding:0 60px;height:64px;}
 .logo{font-family:var(--serif);font-size:22px;font-weight:400;color:var(--navy);letter-spacing:0.03em;text-decoration:none;display:flex;align-items:center;}
@@ -27,7 +27,7 @@ nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.96);backdrop
 .nav-links a:hover{color:var(--navy);}
 .nav-cta{background:var(--navy);color:#fff;font-family:var(--sans);font-size:12px;font-weight:400;letter-spacing:0.12em;text-transform:uppercase;padding:10px 24px;border:none;cursor:pointer;text-decoration:none;transition:background .2s;}
 .nav-cta:hover{background:var(--navy2);}
-
+ 
 /* ── HERO ── */
 .hero{background:var(--navy);min-height:92vh;display:grid;grid-template-columns:1fr 1fr;position:relative;overflow:hidden;}
 .hero::before{content:'';position:absolute;right:0;top:0;width:50%;height:100%;background:linear-gradient(135deg,var(--navy2) 0%,var(--navy3) 100%);clip-path:polygon(8% 0,100% 0,100% 100%,0 100%);}
@@ -46,8 +46,8 @@ nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.96);backdrop
 .hero-vision-label{font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold2);margin-bottom:16px;}
 .hero-vision-text{font-family:var(--serif);font-size:20px;font-weight:300;color:rgba(255,255,255,0.85);line-height:1.6;font-style:italic;}
 .hero-industries{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
-.industry-pill{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);padding:10px 16px;font-size:11px;letter-spacing:0.06em;color:rgba(255,255,255,0.55);font-weight:300;}
-
+.industry-pill{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);padding:12px 18px;font-size:14px;letter-spacing:0.03em;color:rgba(255,255,255,0.6);font-weight:300;}
+ 
 /* ── HOW WE WORK ── */
 .how{background:var(--cream);padding:96px 60px;}
 .section-label{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:14px;font-weight:400;}
@@ -58,7 +58,7 @@ nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.96);backdrop
 .how-num{font-family:var(--serif);font-size:48px;font-weight:300;color:var(--cream2);line-height:1;margin-bottom:20px;}
 .how-title{font-family:var(--serif);font-size:20px;font-weight:400;color:var(--navy);margin-bottom:12px;}
 .how-desc{font-size:15px;line-height:1.75;color:var(--muted);font-weight:300;}
-
+ 
 /* ── WHY ── */
 .why{background:#fff;padding:96px 60px;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;}
 .why-list{margin-top:40px;display:flex;flex-direction:column;gap:0;}
@@ -71,7 +71,7 @@ nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.96);backdrop
 .vision-block::before{content:'\201C';font-family:var(--serif);font-size:120px;color:rgba(184,150,90,0.15);position:absolute;top:-20px;left:24px;line-height:1;}
 .vision-text{font-family:var(--serif);font-size:22px;font-weight:300;color:rgba(255,255,255,0.85);line-height:1.55;font-style:italic;}
 .vision-label{font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold2);margin-top:24px;font-weight:400;}
-
+ 
 /* ── SERVICES ── */
 .services{background:var(--cream);padding:96px 60px;}
 .services-intro{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:end;margin-bottom:64px;}
@@ -91,7 +91,7 @@ nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.96);backdrop
 .svc-for{font-size:13px;line-height:1.65;color:var(--muted);font-weight:300;}
 .svc-cta{display:inline-block;margin-top:20px;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);font-weight:400;text-decoration:none;border-bottom:1px solid var(--gold3);padding-bottom:2px;}
 .svc-arrow{position:absolute;top:36px;right:32px;font-size:18px;color:var(--cream2);}
-
+ 
 /* ── NOSOTRAS ── */
 .about{background:var(--navy);padding:96px 60px;display:grid;grid-template-columns:5fr 4fr;gap:80px;align-items:center;}
 .about h2{font-family:var(--serif);font-size:44px;font-weight:300;color:#fff;line-height:1.15;margin-bottom:28px;}
@@ -106,7 +106,7 @@ nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.96);backdrop
 .about-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);padding:28px;}
 .about-card-label{font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold2);margin-bottom:10px;}
 .about-card-text{font-family:var(--serif);font-size:16px;font-weight:300;color:rgba(255,255,255,0.75);line-height:1.6;}
-
+ 
 /* ── CONTACT ── */
 .contact{background:#fff;padding:96px 60px;display:grid;grid-template-columns:1fr 1fr;gap:80px;}
 .contact h2{font-family:var(--serif);font-size:40px;font-weight:300;color:var(--navy);line-height:1.2;margin-bottom:20px;}
@@ -128,7 +128,7 @@ nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.96);backdrop
 .whatsapp-btn{display:flex;align-items:center;gap:10px;background:#25D366;color:#fff;font-family:var(--sans);font-size:12px;font-weight:400;letter-spacing:0.08em;padding:13px 24px;border:none;cursor:pointer;text-decoration:none;width:fit-content;margin-top:8px;transition:background .2s;}
 .whatsapp-btn:hover{background:#1ebe5d;}
 .whatsapp-btn svg{width:18px;height:18px;fill:#fff;}
-
+ 
 /* ── FOOTER ── */
 footer{background:var(--navy);padding:48px 60px 32px;}
 .footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px;}
@@ -144,12 +144,12 @@ footer{background:var(--navy);padding:48px 60px 32px;}
 .footer-copy{font-size:12px;color:rgba(255,255,255,0.25);font-weight:300;letter-spacing:0.06em;}
 .footer-privacy{font-size:12px;color:rgba(255,255,255,0.25);text-decoration:none;font-weight:300;letter-spacing:0.06em;}
 .footer-privacy:hover{color:rgba(255,255,255,0.5);}
-
+ 
 /* ── UTILS ── */
 .btn-navy{background:var(--navy);color:#fff;font-family:var(--sans);font-size:11px;font-weight:400;letter-spacing:0.12em;text-transform:uppercase;padding:14px 32px;border:none;cursor:pointer;text-decoration:none;display:inline-block;transition:background .2s;}
 .btn-navy:hover{background:var(--navy2);}
 .divider-gold{width:40px;height:1px;background:var(--gold);margin:24px 0;}
-
+ 
 @keyframes fadeUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
 .hero-left > *{animation:fadeUp .7s ease both;}
 .hero h1{animation-delay:.1s;}
