@@ -14,12 +14,16 @@
 <!-- NAV -->
 <nav>
   <a href="#inicio" class="logo"><img src="logo-horizontal-crop.png" alt="Lex Metrópoli" class="logo-img"></a>
-  <ul class="nav-links">
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
     <li><a href="#servicios">Servicios</a></li>
     <li><a href="#nosotras">Nosotras</a></li>
     <li><a href="contacto.html">Contacto</a></li>
+    <li class="nav-cta-mobile"><a href="contacto.html" class="nav-cta">Agenda tu asesoría</a></li>
   </ul>
-  <a href="contacto.html" class="nav-cta">Agenda tu asesoría</a>
+  <a href="contacto.html" class="nav-cta nav-cta-desktop">Agenda tu asesoría</a>
 </nav>
 
 <!-- HERO -->
