@@ -56,28 +56,28 @@
     </div>
   </div>
   <div>
-    <div class="form">
+    <form class="form" id="contactForm">
       <div class="form-row">
         <div class="field">
           <label>Nombre completo</label>
-          <input type="text" placeholder="Tu nombre">
+          <input type="text" name="nombre" placeholder="Tu nombre" required>
         </div>
         <div class="field">
           <label>Empresa u organización</label>
-          <input type="text" placeholder="Opcional">
+          <input type="text" name="empresa" placeholder="Opcional">
         </div>
       </div>
       <div class="field">
         <label>Correo electrónico</label>
-        <input type="email" placeholder="correo@ejemplo.com">
+        <input type="email" name="email" placeholder="correo@ejemplo.com" required>
       </div>
       <div class="field">
         <label>Teléfono / WhatsApp</label>
-        <input type="tel" placeholder="+52 (33) ____  ____">
+        <input type="tel" name="telefono" placeholder="+52 (33) ____  ____">
       </div>
       <div class="field">
         <label>Área de interés</label>
-        <select>
+        <select name="area">
           <option value="" disabled selected>Selecciona una opción</option>
           <optgroup label="Regulación Sanitaria">
             <option>Aviso de Funcionamiento</option>
@@ -100,11 +100,12 @@
       </div>
       <div class="field">
         <label>Cuéntanos brevemente tu caso</label>
-        <textarea placeholder="¿Cuál es el desafío que necesitas resolver?"></textarea>
+        <textarea name="mensaje" placeholder="¿Cuál es el desafío que necesitas resolver?" required></textarea>
       </div>
-      <a href="#" class="btn-gold" style="width:fit-content;">Agenda tu asesoría gratuita →</a>
+      <button type="submit" class="btn-gold" style="width:fit-content;border:none;cursor:pointer;">Agenda tu asesoría gratuita →</button>
+      <p id="formStatus" style="font-size:12px;margin-top:4px;"></p>
       <p style="font-size:11px;color:var(--light);margin-top:4px;">La primera sesión de 20–30 min es sin costo y sin compromiso.</p>
-    </div>
+    </form>
   </div>
 </section>
 
